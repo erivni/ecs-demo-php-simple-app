@@ -57,7 +57,7 @@ Resources:
             - -D
             - FOREGROUND
           Essential: true
-          Memory: 128
+          Memory: 256
           MountPoints:
             - SourceVolume: my-vol
               ContainerPath: /var/www/my-vol
